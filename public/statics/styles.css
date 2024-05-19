@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    word-break: break-all;
+}
+
+html {
+    height: 100%;
+    font-size: 25px;
+    line-height: 3.5rem;
+    font-family: 'Nanum Myeongjo', serif;
+    text-rendering: optimizeSpeed;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    min-height: 100%;
+    background: white;
+    color: black;
+    position: relative;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    padding: 1rem;
+    display: none;
+}
+
+#exam-before {
+    text-align: center;
+}
+
+#exam-after {
+    text-align: center;
+}
+
+.exam-index {
+    padding-top: 7rem;
+    height: 75vh;
+}
+
+.box {
+    padding: 1rem 1rem 5rem 1rem;
+}
+
+.big-btn {
+    margin: 2rem auto;
+    background: #569a56;
+    color: #f0f5cf;
+    width: 5rem;
+    padding: 1rem;
+}
+
+.btn {
+    border-radius: 30%;
+    text-align: center;
+    box-shadow: 0rem .1rem .5rem black;
+    display: inline;
+    cursor: pointer;
+}
+
+.input-box {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background: #73987e;
+}
+
+.input-answer {
+    width: 60vw;
+    font-size: 1rem;
+    padding: .3rem;
+}
+
+#answer {
+    text-align: center;
+    margin-top: 2rem;
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#submit {
+    background: #2171a0;
+    color: #f0f5cf;
+    width: 3rem;
+    padding: .3rem;
+}
+
+#next {
+    background: #de662d;
+    color: #f0f5cf;
+    width: 3rem;
+    padding: .3rem;
+    display: none;
+}
